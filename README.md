@@ -12,7 +12,7 @@ Ferramenta web para comparar o custo-benefício entre diferentes produtos anties
 ## Como usar
 
 1. Insira os preços dos produtos A e B
-2. Configure o consumo em ml/m³ de cada produto
+2. Configure o consumo em g/m³ de cada produto
 3. Clique em "Calcular" para ver a comparação
 4. Analise qual produto oferece melhor custo-benefício
 

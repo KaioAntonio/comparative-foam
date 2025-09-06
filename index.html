@@ -8,9 +8,12 @@
     <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%234CAF50'/><text x='50' y='60' text-anchor='middle' fill='white' font-size='30' font-weight='bold'>UTE</text></svg>">
 </head>
 <body>
-    <div class="container bamboo-effect">
+     <div class="container bamboo-effect">
         <div class="header-logo">
-            <div class="ute-badge">UTE - Usina Termoelétrica</div>
+            <div class="ute-header">
+                <img src="ute-logo.png" alt="Logo UTE" class="ute-logo" />
+                <div class="ute-badge">UTE - Usina Termoelétrica Iolando Leite</div>
+            </div>
         </div>
         
         <h1>Planilha Comparativa - Antiespumante</h1>
@@ -19,19 +22,19 @@
             <h3>Configuração dos Produtos</h3>
             <div class="input-group">
                 <div>
-                    <label for="precoA">💰 Produto A - Preço (R$/L):</label>
+                    <label for="precoA">💰 Produto A - Preço (R$/kg):</label>
                     <input type="number" id="precoA" value="36.00" step="0.01" placeholder="0.00">
                 </div>
                 <div>
-                    <label for="consumoA">🧪 Consumo A (ml/m³):</label>
+                    <label for="consumoA">🧪 Consumo A (g/m³):</label>
                     <input type="number" id="consumoA" value="50" step="0.1" placeholder="0.0">
                 </div>
                 <div>
-                    <label for="precoB">💰 Produto B - Preço (R$/L):</label>
+                    <label for="precoB">💰 Produto B - Preço (R$/kg):</label>
                     <input type="number" id="precoB" value="42.00" step="0.01" placeholder="0.00">
                 </div>
                 <div>
-                    <label for="consumoB">🧪 Consumo B (ml/m³):</label>
+                    <label for="consumoB">🧪 Consumo B (g/m³):</label>
                     <input type="number" id="consumoB" value="40" step="0.1" placeholder="0.0">
                 </div>
                 <div>
@@ -62,7 +65,13 @@
         <div id="resumo"></div>
         
         <footer style="text-align: center; margin-top: 30px; color: #666; font-size: 0.9em;">
-            <p>🏭 Sistema desenvolvido para UTE - Usina Termoelétrica</p>
+           <div class="ute-info">
+                    <span>🏭 Sistema desenvolvido para UTE - Usina Termoelétrica Iolando Leite</span>
+                </div>
+            <div class="dev-info">
+                    <img src="singular.png" alt="Logo da Singular Softworks" class="logo-singular" />
+                    <span class="company-name">Singular Softworks</span>
+                </div>
         </footer>
     </div>
 
